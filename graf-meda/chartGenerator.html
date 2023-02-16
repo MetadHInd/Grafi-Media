@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+    <title>repl.it</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="chartGenerator_body">
+      <div>
+      <input id="data" type="number" placeholder="Data">
+      <input id="label" type="text" placeholder="Data's Label">
+
+      <button onclick="addData(myChart)">Add Data</button>
+      <button onclick="removeData(myChart)">Remove Data</button>
+      <button onclick="saveCanvas()">Save Chart</button>
+    </div>
+    <canvas id="myChart"></canvas>
+  
+<script src="chartscript.js"></script>
+</body>
+</html>
